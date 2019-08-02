@@ -4,6 +4,7 @@
 |																																							 |
 |  ===========================================================================*/
 
+// imported classes from simpleChain file
 const {Block, Blockchain} = require('./simpleChain')
 
 let blockchain = new Blockchain();
