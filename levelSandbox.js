@@ -45,15 +45,6 @@ getLevelDBData(key){
   });
 }
 
-
-// Get data from levelDB with key
-/*function getLevelDBData(key){
-  db.get(key, function(err, value) {
-    if (err) return console.log('Not found!', err);
-    console.log('Value = ' + value);
-  })
-}*/
-
 // Get the Block height from levelDB
 getBlockHeightFromDB(){
   return new Promise((resolve, reject) => {
